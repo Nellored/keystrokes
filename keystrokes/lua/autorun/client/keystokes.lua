@@ -126,6 +126,8 @@ concommand.Add( "KeyStrokesDelete", function(ply, cmd, args, argStr)
         print(i, keys[i].text, keys[i].key)
         if args[1] == keys[i].text and args[2] == keys[i].key then
             table.remove(keys, i)
+            local tab = util.TableToJSON( keys )
+            file.Write( "keystrokes/config.json", tab) -- Write to .json
         end
     end
 end)
