@@ -45,3 +45,8 @@
 | key       | 33    |
 
 ![изображение](https://user-images.githubusercontent.com/55703681/197153022-10111a09-8b1f-4145-9c7c-a61f72845bd8.png)
+
+# KeyStrokesEditor (console command)
+**Opens menu where you can change KeyStrokes position**
+Will be update with functions in menu
+![изображение](https://user-images.githubusercontent.com/55703681/197268668-bb4b1a51-306d-4792-b1fb-a170a73d0479.png)
